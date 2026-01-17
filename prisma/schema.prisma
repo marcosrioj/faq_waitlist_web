@@ -1,0 +1,38 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Lead {
+  id                 String   @id @default(cuid())
+  email              String   @unique
+  name               String?
+  budgetRange        String?
+  locale             String
+  utmSource          String?
+  utmMedium          String?
+  utmCampaign        String?
+  utmContent         String?
+  utmTerm            String?
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  events             Event[]
+}
+
+model Event {
+  id        String   @id @default(cuid())
+  sessionId String
+  leadId    String?
+  lead      Lead?    @relation(fields: [leadId], references: [id])
+  type      String
+  metadata  Json?
+  locale    String
+  createdAt DateTime @default(now())
+
+  @@index([sessionId])
+  @@index([leadId])
+}

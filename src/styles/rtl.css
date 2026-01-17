@@ -1,0 +1,1052 @@
+[lang=ar] {
+  direction: rtl;
+}
+[lang=ar] .preloader .spinner {
+  direction: ltr;
+}
+[lang=ar] .ml-auto {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+[lang=ar] .mr-auto {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+[lang=ar] .ms-auto {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+[lang=ar] .mr-auto.ml-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+[lang=ar] .navbar-brand {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+[lang=ar] .startp-nav nav .navbar-nav .nav-item .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .startp-nav nav .navbar-nav .nav-item .dropdown-menu li {
+  text-align: right;
+}
+[lang=ar] .startp-nav nav .navbar-nav .nav-item .dropdown-menu li a svg {
+  float: left;
+}
+[lang=ar] .startp-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+  left: auto;
+  right: 100%;
+}
+[lang=ar] .startp-nav nav .others-option {
+  margin-left: 0;
+  margin-right: 20px;
+}
+[lang=ar] .startp-nav nav .others-option .cart-wrapper-btn {
+  margin-left: 20px;
+  margin-right: 0;
+}
+[lang=ar] .startp-nav nav .others-option .cart-wrapper-btn span {
+  right: auto;
+  left: -7px;
+}
+[lang=ar] .startp-nav nav .others-option .btn.btn-light {
+  margin-right: 0;
+  margin-left: 10px;
+}
+[lang=ar] .main-banner .banner-form.ml-3 {
+  margin-left: auto !important;
+  margin-right: 1rem;
+}
+[lang=ar] .offset-lg-1 {
+  margin-left: auto;
+  margin-right: 8.333333%;
+}
+[lang=ar] .hosting-main-banner .hosting-banner-content ul li {
+  padding-left: 0;
+  padding-right: 30px;
+}
+[lang=ar] .hosting-main-banner .hosting-banner-content ul li::before {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .iot-banner-image {
+  right: auto;
+  left: 65px;
+}
+[lang=ar] .animate-border span {
+  left: 25%;
+}
+[lang=ar] [type=email], [lang=ar] [type=number], [lang=ar] [type=tel], [lang=ar] [type=url] {
+  direction: rtl;
+}
+[lang=ar] .pl-5, [lang=ar] .px-5 {
+  padding-right: 3rem !important;
+  padding-left: 0 !important;
+}
+[lang=ar] .contact-cta-box {
+  padding-left: 210px;
+  padding-right: 30px;
+}
+[lang=ar] .contact-cta-box .btn {
+  right: auto;
+  left: 30px;
+}
+[lang=ar] .services-content .section-title {
+  text-align: right;
+}
+[lang=ar] .services-content .box {
+  padding: 15px 45px 15px 12px;
+}
+[lang=ar] .services-content .box svg {
+  left: auto;
+  right: 15px;
+}
+[lang=ar] .repair-about-content ul li span svg {
+  margin-right: 0;
+  margin-left: 5px;
+}
+[lang=ar] .single-repair-feedback::after {
+  left: auto;
+  right: 25px;
+}
+[lang=ar] .single-repair-feedback .client-img {
+  padding-left: 0;
+  padding-right: 108px;
+}
+[lang=ar] .single-repair-feedback .client-img img {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .shape9 {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .agency-banner-content {
+  margin-left: 0;
+  margin-right: auto;
+}
+[lang=ar] .single-features {
+  padding-left: 20px;
+  padding-right: 95px;
+}
+[lang=ar] .single-features .icon {
+  left: auto;
+  right: 20px;
+}
+[lang=ar] .features-details-desc .features-details-list li {
+  padding-left: 0;
+  padding-right: 15px;
+}
+[lang=ar] .features-details-desc .features-details-list li::before {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .features-details-desc .features-details-accordion .accordion .accordion-title {
+  padding-left: 20px;
+  padding-right: 51px;
+}
+[lang=ar] .features-details-desc .features-details-accordion .accordion .accordion-title i {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .services-details-desc .services-details-accordion .accordion .accordion-title {
+  padding-left: 20px;
+  padding-right: 51px;
+}
+[lang=ar] .services-details-desc .services-details-accordion .accordion .accordion-title i {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .project-details-desc .project-details-information .single-info-box {
+  float: right;
+}
+[lang=ar] .domain-search-content form .form-control {
+  float: right;
+  padding-left: 0;
+  padding-right: 20px;
+}
+[lang=ar] .domain-search-content form .domain-select {
+  float: right;
+  padding-left: 20px;
+  padding-right: 0;
+}
+[lang=ar] .domain-search-content form .domain-search-content form button {
+  float: right;
+}
+[lang=ar] .domain-search-content ul li:first-child {
+  border-left: 1px solid #eeeeee;
+}
+[lang=ar] .domain-search-content ul li:last-child {
+  border: none;
+}
+[lang=ar] .why-choose-us-image img:nth-child(1) {
+  left: auto;
+  right: -20px;
+}
+[lang=ar] .solutions-box .icon {
+  padding-left: 0;
+  padding-right: 20px;
+}
+[lang=ar] .solutions-box .icon img {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .solutions-box .learn-more-btn svg {
+  margin-right: 0;
+  margin-left: 3px;
+}
+[lang=ar] .single-works .icon {
+  right: auto;
+  left: 25px;
+}
+[lang=ar] .agency-about-img {
+  padding-left: 100px;
+  padding-right: 0;
+}
+[lang=ar] .single-testimonials-item .client-info {
+  padding-left: 0;
+  padding-right: 95px;
+}
+[lang=ar] .single-testimonials-item .client-info img {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .testimonials-slides::before {
+  left: auto;
+  right: -30px;
+}
+[lang=ar] .testimonials-slides::after {
+  left: -30px;
+  right: auto;
+}
+[lang=ar] .single-blog-post-item .post-content .post-meta {
+  padding-right: 0;
+}
+[lang=ar] .single-blog-post-item .post-content .post-meta li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+[lang=ar] .single-blog-post-item .post-content .post-meta li:first-child::before {
+  display: none;
+}
+[lang=ar] .single-blog-post-item .post-content .post-meta li:last-child::before {
+  display: block;
+}
+[lang=ar] .single-blog-post-item .post-content .read-more-btn {
+  left: auto;
+  right: 25px;
+}
+[lang=ar] .single-feedback-item .client-info .image {
+  padding-left: 20px;
+  padding-right: 0;
+}
+[lang=ar] .single-feedback-item::before {
+  left: auto;
+  right: 25px;
+}
+[lang=ar] .cta-right-content .buy-btn {
+  padding-left: 0;
+  padding-right: 35px;
+}
+[lang=ar] .slick-slide {
+  float: right;
+}
+[lang=ar] .feedback-slides .client-feedback .single-feedback {
+  padding-left: 40px;
+  padding-right: 170px;
+}
+[lang=ar] .feedback-slides .client-feedback .single-feedback .client-img {
+  left: auto;
+  right: 40px;
+}
+[lang=ar] .faq-accordion .accordion .accordion-item .accordion-title {
+  padding-left: 20px;
+  padding-right: 51px;
+}
+[lang=ar] .faq-accordion .accordion .accordion-item .accordion-title i {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .ready-to-talk span a {
+  margin-left: 0;
+  margin-right: 15px;
+}
+[lang=ar] .coming-soon-content form .submit-btn {
+  right: auto;
+  left: 3px;
+}
+[lang=ar] .single-blog-post .blog-image .date {
+  left: auto;
+  right: 20px;
+}
+[lang=ar] .single-blog-post .blog-image .date svg {
+  margin-right: 0;
+  margin-left: 3px;
+}
+[lang=ar] .single-footer-widget ul.list li a:hover {
+  padding-left: 0;
+  padding-right: 7px;
+}
+[lang=ar] .single-footer-widget ul.footer-contact-info li {
+  padding-left: 0;
+  padding-right: 25px;
+}
+[lang=ar] .single-footer-widget ul.footer-contact-info li svg {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .single-footer-widget ul.social-links li {
+  margin-right: 0;
+  margin-left: 8px;
+}
+[lang=ar] #productsModalCenter .modal-content button.close {
+  right: auto;
+  left: 2%;
+}
+[lang=ar] #productsModalCenter .modal-content .products-content form .quantity {
+  margin-left: 8px;
+  margin-right: 0;
+}
+[lang=ar] #productsModalCenter .modal-content .products-content .product-meta span {
+  margin-right: 0;
+  margin-left: 8px;
+}
+[lang=ar] .products-details form .quantity {
+  padding-left: 10px;
+  padding-right: 0;
+}
+[lang=ar] .products-details form .quantity span {
+  padding-right: 0;
+  padding-left: 10px;
+}
+[lang=ar] .products-details form .add-to-wishlist-btn {
+  margin-left: 0;
+  margin-right: 5px;
+}
+[lang=ar] .products-details .products-share-social span {
+  margin-left: 10px;
+  margin-right: 0;
+}
+[lang=ar] .cart-table table tbody tr td.product-subtotal .remove {
+  float: left;
+  margin-left: 0;
+  margin-right: 25px;
+}
+[lang=ar] .cart-totals ul li span {
+  float: left;
+}
+[lang=ar] .user-actions svg {
+  margin-right: 0;
+  margin-left: 4px;
+}
+[lang=ar] .order-details .payment-method p [type=radio]:checked + label, [lang=ar] .order-details .payment-method p [type=radio]:not(:checked) + label {
+  padding-left: 0;
+  padding-right: 27px;
+}
+[lang=ar] .order-details .payment-method p [type=radio]:checked + label::before, [lang=ar] .order-details .payment-method p [type=radio]:not(:checked) + label::before {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .order-details .payment-method p [type=radio]:checked + label::after, [lang=ar] .order-details .payment-method p [type=radio]:not(:checked) + label::after {
+  left: auto;
+  right: 3px;
+}
+[lang=ar] .form-check {
+  padding-left: 0;
+  padding-right: 1.25rem;
+}
+[lang=ar] .form-check-input {
+  margin-left: 0;
+  margin-right: -1.25rem;
+}
+[lang=ar] .widget-area .widget .widget-title::before {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .widget-area .widget_search form button {
+  right: auto;
+  left: 0;
+}
+[lang=ar] .widget-area .widget_startp_posts_thumb .item .thumb {
+  float: right;
+  margin-right: 0;
+  margin-left: 15px;
+}
+[lang=ar] .widget-area .widget_categories ul {
+  padding-right: 0;
+}
+[lang=ar] .widget-area .widget_categories ul li {
+  padding-left: 0;
+  padding-right: 14px;
+}
+[lang=ar] .widget-area .widget_categories ul li::before {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .widget-area .widget_archive ul {
+  padding-right: 0;
+}
+[lang=ar] .widget-area .widget_archive ul li {
+  padding-left: 0;
+  padding-right: 14px;
+}
+[lang=ar] .widget-area .widget_archive ul li::before {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .widget-area .widget_meta ul {
+  padding-right: 0;
+}
+[lang=ar] .widget-area .widget_meta ul li {
+  padding-left: 0;
+  padding-right: 14px;
+}
+[lang=ar] .widget-area .widget_meta ul li::before {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .blog-details-desc .article-content .entry-meta ul {
+  padding-right: 0;
+}
+[lang=ar] .blog-details-desc .article-content .entry-meta ul li:first-child {
+  margin-right: 0;
+}
+[lang=ar] .blog-details-desc .article-content .entry-meta ul li:first-child::before {
+  display: none;
+}
+[lang=ar] .blog-details-desc .article-content .entry-meta ul li svg {
+  margin-left: 2px;
+  margin-right: 0;
+}
+[lang=ar] .blog-details-desc .article-content .entry-meta ul li:last-child {
+  margin-right: 20px;
+}
+[lang=ar] .blog-details-desc .article-content .entry-meta ul li:last-child::before {
+  display: block;
+}
+[lang=ar] .blog-details-desc .article-content .features-list {
+  padding-right: 0;
+}
+[lang=ar] .blog-details-desc .article-content .features-list li {
+  padding-left: 0;
+  padding-right: 25px;
+}
+[lang=ar] .blog-details-desc .article-content .features-list li svg {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .blog-details-desc .article-footer .article-tags a {
+  margin-right: 0;
+  margin-left: 3px;
+}
+[lang=ar] blockquote::after, [lang=ar] .blockquote::after {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .prev-link-wrapper {
+  padding-right: 0;
+  padding-left: 15px;
+}
+[lang=ar] .prev-link-wrapper .image-prev {
+  margin-right: 0;
+  margin-left: 20px;
+}
+[lang=ar] .next-link-wrapper {
+  padding-left: 0;
+  padding-right: 15px;
+}
+[lang=ar] .next-link-wrapper .image-next {
+  margin-left: 0;
+  margin-right: 20px;
+}
+[lang=ar] .comments-area .comment-body {
+  padding-left: 0;
+  padding-right: 65px;
+}
+[lang=ar] .comments-area .comment-author .avatar {
+  left: auto;
+  right: -65px;
+}
+[lang=ar] .comments-area .comment-respond .comment-form-comment {
+  float: right;
+}
+[lang=ar] .comments-area .comment-respond .comment-form-author {
+  float: right;
+  padding-left: 10px;
+  padding-right: 0;
+}
+[lang=ar] .comments-area .comment-respond .comment-form-email {
+  float: right;
+  padding-left: 0;
+  padding-right: 10px;
+}
+[lang=ar] .comments-area .comment-respond .comment-form-url {
+  float: right;
+}
+[lang=ar] .comments-area .comment-respond .comment-form-cookies-consent {
+  padding-left: 0;
+  padding-right: 20px;
+}
+[lang=ar] .comments-area .comment-respond .comment-form-cookies-consent input {
+  left: auto;
+  right: 0;
+}
+[lang=ar] #contactForm .help-block ul {
+  padding-right: 0;
+}
+[lang=ar] .single-ml-projects-box .plus-icon a {
+  right: auto;
+  left: 20px;
+}
+[lang=ar] .pricing-tab .tabs {
+  padding-right: 0;
+}
+[lang=ar] .pricing-tab .tabs li:nth-child(1) a {
+  border-radius: 0 5px 5px 0;
+}
+[lang=ar] .pricing-tab .tabs li:nth-child(2) a {
+  border-radius: 5px 0 0 5px;
+}
+[lang=ar] .pricing-box .pricing-features li {
+  padding-left: 0;
+  padding-right: 27px;
+}
+[lang=ar] .pricing-box .pricing-features li svg {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .single-ml-feedback-item {
+  padding-left: 70px;
+  padding-right: 190px;
+}
+[lang=ar] .single-ml-feedback-item .client-info {
+  left: auto;
+  right: 60px;
+}
+[lang=ar] .single-blog-post-box .entry-post-content .entry-meta ul {
+  padding-right: 0;
+}
+[lang=ar] .single-blog-post-box .entry-post-content .entry-meta ul li:first-child {
+  margin-right: 0;
+}
+[lang=ar] .single-blog-post-box .entry-post-content .entry-meta ul li:first-child::before {
+  display: none;
+}
+[lang=ar] .single-blog-post-box .entry-post-content .entry-meta ul li:last-child {
+  margin-right: 12px;
+}
+[lang=ar] .single-blog-post-box .entry-post-content .entry-meta ul li:last-child::before {
+  display: block;
+}
+[lang=ar] .free-trial-content form button {
+  right: auto;
+  left: 0;
+  border-radius: 0 30px 30px 0;
+}
+[lang=ar] .free-trial-content form .input-newsletter {
+  padding-left: 0;
+  padding-right: 20px;
+}
+[lang=ar] .go-top {
+  left: 0;
+  right: auto;
+  border-radius: 0 10px 10px 0;
+}
+[lang=ar] .shorting-menu button {
+  margin-left: 15px;
+  margin-right: 0;
+}
+[lang=ar] .shorting-menu button:last-child {
+  margin-left: 0;
+}
+[lang=ar] .projects-items .single-latest-projects .content {
+  left: auto;
+  right: -5%;
+}
+[lang=ar] .single-blog-item .post-content .post-meta {
+  padding-right: 0;
+}
+[lang=ar] .single-blog-item .post-content .post-meta li {
+  margin-right: 0;
+  margin-left: 25px;
+}
+[lang=ar] .single-blog-item .post-content .post-meta li:last-child {
+  margin-left: 0;
+}
+[lang=ar] .single-blog-item .post-content .post-meta li::before {
+  right: auto;
+  left: -20px;
+}
+[lang=ar] .creative-inner-area {
+  margin-left: 0;
+  margin-right: auto;
+}
+[lang=ar] .single-banner-boxes {
+  padding-right: 95px;
+  padding-left: 25px;
+}
+[lang=ar] .single-banner-boxes .icon {
+  left: auto;
+  right: 20px;
+}
+[lang=ar] .single-what-we-do-box {
+  padding-left: 0;
+  padding-right: 88px;
+}
+[lang=ar] .single-what-we-do-box .icon {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .discover-content {
+  padding-left: 0;
+  padding-right: 15px;
+}
+[lang=ar] .discover-image {
+  margin-left: 15px;
+  margin-right: 0;
+}
+[lang=ar] .discover-image img:nth-child(2) {
+  right: auto;
+  left: 0;
+}
+[lang=ar] .analytics-shape1 {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .analytics-shape2 {
+  left: 0;
+  right: auto;
+}
+[lang=ar] .single-services-box-item {
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+[lang=ar] .single-services-box-item .learn-more-btn {
+  padding-left: 0;
+  padding-right: 28px;
+}
+[lang=ar] .single-services-box-item .learn-more-btn svg {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .single-services-box-item .learn-more-btn:hover {
+  padding-left: 5px;
+  padding-right: 0;
+}
+[lang=ar] .single-services-box-item .learn-more-btn:hover svg {
+  left: auto;
+  right: 100%;
+}
+[lang=ar] .single-services-box-item .shape {
+  right: auto;
+  left: 0;
+}
+[lang=ar] .single-feedback-box {
+  margin-left: 0;
+  margin-right: 25px;
+}
+[lang=ar] .single-feedback-box::before {
+  left: auto;
+  right: -25px;
+}
+[lang=ar] .single-feedback-box .feedback-desc::before {
+  left: auto;
+  right: 35px;
+}
+[lang=ar] .single-feedback-box .client-info {
+  padding-left: 0;
+  padding-right: 65px;
+  margin-left: 0;
+  margin-right: 27px;
+}
+[lang=ar] .single-feedback-box .client-info img {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .single-industries-serve-box {
+  padding-left: 15px;
+  padding-right: 50px;
+}
+[lang=ar] .single-industries-serve-box::before {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .single-industries-serve-box .icon {
+  left: auto;
+  right: -15px;
+}
+[lang=ar] .newsletter-area::before {
+  right: auto;
+  left: 0;
+  -webkit-clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+}
+[lang=ar] .newsletter-content .newsletter-form {
+  padding-right: 0;
+  padding-left: 160px;
+}
+[lang=ar] .newsletter-content .newsletter-form .input-newsletter {
+  padding-left: 0;
+  padding-right: 20px;
+}
+[lang=ar] .newsletter-content .newsletter-form button {
+  right: auto;
+  left: 0;
+}
+[lang=ar] .section-title.text-left {
+  text-align: right;
+}
+[lang=ar] .about-content .section-title {
+  text-align: revert;
+}
+[lang=ar] .order-details .order-table table {
+  text-align: revert;
+}
+[lang=ar] .form-check-input {
+  float: right;
+}
+[lang=ar] .form-select {
+  background-position: left 0.75rem center;
+}
+[lang=ar] .accordion__button {
+  text-align: right;
+}
+[lang=ar] .accordion__button:before {
+  margin-right: 0;
+  margin-left: 10px;
+}
+[lang=ar] .auth-form form .form-label {
+  text-align: right;
+}
+[lang=ar] .saas-partner .container-fluid {
+  left: auto;
+  right: calc((100% - 1320px) / 2);
+}
+[lang=ar] .saas-funfact-area .item::before {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .saas-faq-area .saas-section-title .saas-shape2 {
+  right: auto;
+  left: 60px;
+  transform: rotateY(190deg);
+}
+[lang=ar] .saas-faq-area .saas-section-title .saas-faq-btn {
+  padding-right: 0;
+  padding-left: 90px;
+}
+[lang=ar] .saas-accordion .accordion__item .accordion__heading .accordion__button {
+  padding: 27px 30px 27px 60px;
+}
+[lang=ar] .saas-accordion .accordion__item .accordion__heading .accordion__button::before {
+  right: auto;
+  left: 22px;
+}
+[lang=ar] .saas-accordion .accordion__item .accordion__heading .accordion__button::after {
+  right: auto;
+  left: 20px;
+}
+[lang=ar] .saas-subscribe-content .saas-man3 {
+  left: 53%;
+}
+[lang=ar] .saas-subscribe-content .saas-subscribe-form .saas-green-btn {
+  right: auto;
+  left: 10px;
+}
+[lang=ar] .fintech-our-values {
+  border-radius: 25px 25px 25px 165px;
+}
+[lang=ar] .fintech-pricing-area .row .item:nth-child(1) .fintech-pricing-card {
+  transform: rotate(3deg);
+}
+[lang=ar] .fintech-pricing-area .row .item:nth-child(3) .fintech-pricing-card {
+  transform: rotate(-3deg);
+}
+[lang=ar] .fintech-blog-card img {
+  border-radius: 25px 125px 0 0;
+}
+[lang=ar] .fintech-blog-card:hover img {
+  border-radius: 25px 25px 0 0;
+}
+[lang=ar] .fintech-funfact-area .item::before {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .health-tech-main-banner .hero-content .ht-funfact .item::before {
+  left: auto;
+  right: 0;
+}
+[lang=ar] .health-tech-about-area .ht-about-content::before {
+  right: auto;
+  left: 0;
+}
+[lang=ar] .health-tech-about-area .ht-about-content::after {
+  right: auto;
+  left: -5%;
+}
+[lang=ar] .health-tech-benefits-area .benefits-content {
+  padding-left: 0;
+  padding-right: 100px;
+}
+[lang=ar] .health-tech-how-it-work-card .step-shape {
+  right: 62%;
+}
+[lang=ar] .health-tech-pricing-area .row .item:nth-child(1) .health-tech-pricing-card {
+  transform: rotate(3deg);
+}
+[lang=ar] .health-tech-pricing-area .row .item:nth-child(3) .health-tech-pricing-card {
+  transform: rotate(-3deg);
+}
+[lang=ar] .health-tech-blog-card .contant .blog-meta li::before {
+  right: auto;
+  left: -17px;
+}
+[lang=ar] .heal-tech-sidebar {
+  padding-left: 0;
+  padding-right: 70px;
+}
+@media only screen and (max-width: 767px) {
+  [lang=ar] .startp-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+    right: 15px;
+  }
+  [lang=ar] .startp-nav nav .others-option {
+    right: auto;
+    left: 45px;
+  }
+  [lang=ar] .single-features {
+    padding-right: 20px;
+  }
+  [lang=ar] .single-works .icon {
+    right: auto !important;
+    left: 10px;
+  }
+  [lang=ar] .feedback-slides .client-feedback .single-feedback .client-img {
+    right: 0;
+  }
+  [lang=ar] .offset-lg-1 {
+    margin-right: 0;
+  }
+  [lang=ar] .contact-cta-box {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  [lang=ar] .contact-cta-box .btn {
+    right: 0;
+  }
+  [lang=ar] .feedback-slides .client-feedback .single-feedback {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  [lang=ar] .pl-5, [lang=ar] .px-5 {
+    padding-right: 0 !important;
+  }
+  [lang=ar] .domain-search-content form .domain-select {
+    padding-left: 0;
+  }
+  [lang=ar] .single-ml-feedback-item {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  [lang=ar] .single-industries-serve-box {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  [lang=ar] .testimonials-slides .client-info .image {
+    padding-right: 0 !important;
+    padding-left: 15px;
+  }
+  [lang=ar] .single-feedback-item::before {
+    left: auto !important;
+    right: 15px;
+  }
+  [lang=ar] .cta-right-content .buy-btn {
+    padding-right: 0;
+  }
+  [lang=ar] .single-repair-feedback .client-img {
+    padding-right: 85px;
+    padding-left: 0 !important;
+  }
+  [lang=ar] .single-repair-feedback::after {
+    left: auto !important;
+    right: 10px;
+  }
+  [lang=ar] .single-ml-feedback-item .client-info {
+    right: 0;
+  }
+  [lang=ar] .solutions-box .icon {
+    padding-left: 0 !important;
+    padding-right: 15px;
+  }
+  [lang=ar] .agency-about-img {
+    padding-left: 0;
+  }
+  [lang=ar] .projects-items .single-latest-projects .content {
+    left: auto !important;
+    right: 5%;
+  }
+  [lang=ar] .single-banner-boxes {
+    padding-left: 20px !important;
+    padding-right: 85px !important;
+  }
+  [lang=ar] .single-banner-boxes .icon {
+    left: auto !important;
+    right: 15px;
+  }
+  [lang=ar] .single-what-we-do-box {
+    padding-left: 0 !important;
+    padding-right: 70px;
+  }
+  [lang=ar] .discover-image {
+    margin-left: 0;
+  }
+  [lang=ar] .discover-content {
+    padding-right: 0;
+  }
+  [lang=ar] .single-feedback-box {
+    margin-left: 0 !important;
+    margin-right: 15px;
+  }
+  [lang=ar] .single-feedback-box::before {
+    left: auto !important;
+    right: -15px;
+  }
+  [lang=ar] .single-industries-serve-box .icon {
+    right: 0;
+  }
+  [lang=ar] .newsletter-content .newsletter-form {
+    padding-left: 0;
+  }
+  [lang=ar] .saas-faq-area .saas-section-title .saas-faq-btn {
+    padding-left: 0;
+  }
+  [lang=ar] .fintech-our-values {
+    border-radius: 25px;
+  }
+  [lang=ar] .fintech-pricing-area .row .item:nth-child(1) .fintech-pricing-card {
+    transform: rotate(0deg);
+  }
+  [lang=ar] .fintech-pricing-area .row .item:nth-child(3) .fintech-pricing-card {
+    transform: rotate(0deg);
+  }
+  [lang=ar] .fintech-blog-card img {
+    border-radius: 25px 25px 0 0;
+  }
+  [lang=ar] .health-tech-benefits-area .benefits-content {
+    padding-right: 0;
+  }
+  [lang=ar] .health-tech-pricing-area .row .item:nth-child(1) .health-tech-pricing-card {
+    transform: rotate(0deg);
+  }
+  [lang=ar] .health-tech-pricing-area .row .item:nth-child(3) .health-tech-pricing-card {
+    transform: rotate(0deg);
+  }
+  [lang=ar] .heal-tech-sidebar {
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+  [lang=ar] .single-banner-boxes {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  [lang=ar] .single-features {
+    padding-right: 20px;
+  }
+  [lang=ar] .offset-lg-1 {
+    margin-right: 0;
+  }
+  [lang=ar] .agency-about-img {
+    padding-left: 0;
+  }
+  [lang=ar] .discover-image {
+    margin-left: 0;
+  }
+  [lang=ar] .discover-content {
+    padding-right: 0;
+  }
+  [lang=ar] .fintech-our-values {
+    border-radius: 25px;
+  }
+  [lang=ar] .fintech-pricing-area .row .item:nth-child(1) .fintech-pricing-card {
+    transform: rotate(0deg);
+  }
+  [lang=ar] .fintech-pricing-area .row .item:nth-child(3) .fintech-pricing-card {
+    transform: rotate(0deg);
+  }
+  [lang=ar] .fintech-blog-card img {
+    border-radius: 25px 25px 0 0;
+  }
+  [lang=ar] .health-tech-benefits-area .benefits-content {
+    padding-right: 0;
+  }
+  [lang=ar] .health-tech-pricing-area .row .item:nth-child(1) .health-tech-pricing-card {
+    transform: rotate(0deg);
+  }
+  [lang=ar] .health-tech-pricing-area .row .item:nth-child(3) .health-tech-pricing-card {
+    transform: rotate(0deg);
+  }
+  [lang=ar] .heal-tech-sidebar {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  [lang=ar] .main-banner .banner-image {
+    left: 100px;
+  }
+  [lang=ar] .single-banner-boxes {
+    padding-left: 15px !important;
+    padding-right: 83px !important;
+  }
+  [lang=ar] .single-banner-boxes .icon {
+    left: auto !important;
+    right: 15px;
+  }
+  [lang=ar] .fintech-our-values {
+    border-radius: 25px;
+  }
+  [lang=ar] .fintech-pricing-area .row .item:nth-child(1) .fintech-pricing-card {
+    transform: rotate(0deg);
+  }
+  [lang=ar] .fintech-pricing-area .row .item:nth-child(3) .fintech-pricing-card {
+    transform: rotate(0deg);
+  }
+  [lang=ar] .fintech-blog-card img {
+    border-radius: 25px 25px 0 0;
+  }
+  [lang=ar] .health-tech-benefits-area .benefits-content {
+    padding-right: 0;
+  }
+  [lang=ar] .health-tech-pricing-area .row .item:nth-child(1) .health-tech-pricing-card {
+    transform: rotate(0deg);
+  }
+  [lang=ar] .health-tech-pricing-area .row .item:nth-child(3) .health-tech-pricing-card {
+    transform: rotate(0deg);
+  }
+  [lang=ar] .heal-tech-sidebar {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  [lang=ar] .health-tech-benefits-area .benefits-content {
+    padding-right: 20px;
+  }
+  [lang=ar] .heal-tech-sidebar {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 1550px) {
+  [lang=ar] .iot-banner-image {
+    right: auto !important;
+    left: 110px;
+  }
+  [lang=ar] .animate-border span {
+    left: 25% !important;
+  }
+}
+
+[dir=rtl] .slick-slide {
+  float: left;
+}/*# sourceMappingURL=rtl.css.map */

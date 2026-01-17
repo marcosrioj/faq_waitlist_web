@@ -1,0 +1,368 @@
+{
+  "meta": {
+    "title": "FAQ.com.br - FAQ con ROI que reduce soporte y aumenta conversión",
+    "description": "Plataforma de FAQ lista para lanzar que reduce tickets, mejora SEO y convierte preguntas reales en mejores respuestas. Únete a la lista.",
+    "ogTitle": "FAQ.com.br - FAQ con ROI que reduce soporte y aumenta conversión",
+    "ogDescription": "Reduce soporte, sube conversión y mejora SEO con un FAQ que mejora con el tiempo. Únete a la lista."
+  },
+  "nav": {
+    "roi": "ROI",
+    "problem": "Por qué funciona",
+    "how": "Cómo funciona",
+    "benefits": "Social",
+    "integrations": "Integraciones",
+    "plans": "Planes",
+    "faq": "FAQ",
+    "menu": "Menú"
+  },
+  "hero": {
+    "title": "Impulsa el ROI de tu",
+    "titleAccent": "FAQ",
+    "subtitle": "Reduce tickets de soporte, sube conversiones y mejora SEO con un FAQ que evoluciona con preguntas reales.",
+    "primaryCta": "Unirme a la lista",
+    "secondaryCta": "Ver ROI",
+    "note": "Lanzamos pronto. Tu suscripción ayuda a hacerlo posible.",
+    "points": [
+      "Menos tickets de soporte",
+      "Más conversión",
+      "Mejor visibilidad SEO",
+      "Feedback mejora con el tiempo"
+    ]
+  },
+  "partner": {
+    "title": "Apoyado por equipos que mejoran sus FAQs en todo el mundo"
+  },
+  "roi": {
+    "title": "Explora las acciones de FAQ que impulsan tu",
+    "titleAccent": "crecimiento de ROI",
+    "kpiTitle": "Destacado",
+    "kpis": [
+      {
+        "title": "Desvío de tickets",
+        "description": "Responde dudas repetidas antes de llegar a soporte y guía al usuario al artículo correcto, dejando al equipo para casos complejos."
+      },
+      {
+        "title": "Aumento de conversión",
+        "description": "Quita fricción respondiendo dudas en contexto para que el visitante tenga confianza para comprar o probar."
+      },
+      {
+        "title": "Visibilidad SEO",
+        "description": "FAQ estructurado mejora búsquedas long tail y logra snippets más ricos que hacen tus páginas más visibles."
+      },
+      {
+        "title": "Bucle de feedback",
+        "description": "Preguntas reales mantienen respuestas actuales y muestran huecos que puedes cubrir antes de que se conviertan en tickets."
+      }
+    ],
+    "calculator": {
+      "title": "Calculadora rápida de ROI",
+      "description": "Estima ahorro de tiempo y costos según visitas a tu sitio, cualquier página web, docs, productos de tienda o perfil social, y la tasa de deflexión.\n\nEstudios de UX y ecommerce indican que respuestas claras en el momento de compra reducen fricción y suelen aumentar la conversión.",
+      "prompt": "Prueba tus números - simula tu caso en segundos.",
+      "inputs": {
+        "visitors": "Visitantes mensuales",
+        "questionRate": "% con dudas",
+        "responseTime": "Tiempo medio de respuesta (min)",
+        "hourlyCost": "Costo por hora (€)",
+        "deflectionRate": "Tasa de deflexión del FAQ (%)"
+      },
+      "outputs": {
+        "hoursSaved": "Horas ahorradas por mes",
+        "savings": "Ahorro mensual estimado"
+      },
+      "disclaimer": "Las estimaciones varían según el negocio."
+    }
+  },
+  "problemSolution": {
+    "title": "Problema a solución",
+    "subtitle": "FAQ.com.br convierte preguntas repetidas en respuestas con\nROI que reducen tickets, suben conversión y mejoran SEO.",
+    "painsTitle": "Nuestra misión",
+    "painsBody": "Aligerar soporte con respuestas claras y aprobadas que desvíen repetidos, bajen ruido en inbox y dejen al equipo para casos complejos.",
+    "solutionsTitle": "Nuestra visión",
+    "solutionsBody": "FAQ de alta calidad se vuelve el palanca de crecimiento más fácil para cada sitio, tienda o creator, elevando confianza y velocidad.",
+    "valuesTitle": "Nuestros valores",
+    "values": [
+      {
+        "label": "Claridad",
+        "description": "Respuestas cortas y consistentes que eliminan dudas y guían el siguiente paso."
+      },
+      {
+        "label": "Confianza",
+        "description": "La aprobación mantiene calidad de marca y alineación entre equipos."
+      },
+      {
+        "label": "Performance",
+        "description": "SEO estructurado mejora visibilidad y trae tráfico cualificado."
+      },
+      {
+        "label": "Feedback",
+        "description": "Preguntas reales mantienen el FAQ actual y muestran huecos antes de tickets."
+      }
+    ]
+  },
+  "howItWorks": {
+    "label": "Cómo funciona",
+    "title": "Conecta tu sitio y deja que la IA cree un",
+    "titleAccent": "FAQ con ROI",
+    "steps": [
+      {
+        "title": "Conecta tu sitio",
+        "bullets": [
+          "Pega la URL o elige un CMS para conectar en minutos, sin dev.",
+          "Mapeamos páginas clave y preguntas base para crear el FAQ inicial."
+        ]
+      },
+      {
+        "title": "Generar y publicar",
+        "bullets": [
+          "La IA crea respuestas y schema SEO alineado a tus páginas y productos.",
+          "Publica vía widget, script o una página /faq con pocos clics."
+        ]
+      },
+      {
+        "title": "Mejorar con feedback",
+        "bullets": [
+          "Usuarios hacen nuevas preguntas en contexto y muestran huecos reales.",
+          "La IA filtra lo relevante; autoaprobar o gestionar en el panel."
+        ]
+      }
+    ]
+  },
+  "integrations": {
+    "title": "Conecta con las",
+    "titleAccent": "plataformas que ya usas",
+    "subtitle": "WordPress, Shopify, Webflow, WooCommerce y sitios custom vía script. API en roadmap.",
+    "label": "Integraciones",
+    "items": [
+      "WordPress",
+      "Shopify",
+      "Webflow",
+      "WooCommerce",
+      "Sitios custom vía script/widget",
+      "API (roadmap)"
+    ]
+  },
+  "plans": {
+    "label": "Precio esperado",
+    "title": "Precio simple para",
+    "titleAccent": "FAQs en crecimiento",
+    "note": "Solo pre-suscripción. Sin pago hoy.",
+    "featuresLabel": "Funciones",
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "price": "US$19-39/mes",
+        "description": "Para sitios pequeños validando ROI.",
+        "features": [
+          "1 sitio",
+          "Hasta 50 FAQs",
+          "Analítica básica",
+          "Actualizaciones manuales",
+          "Soporte por email"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "US$59-129/mes",
+        "description": "Para equipos en crecimiento reduciendo soporte.",
+        "features": [
+          "Hasta 3 sitios",
+          "Actualizaciones con IA + revisión",
+          "Exportación de estructura SEO",
+          "Sugerencias de feedback",
+          "Soporte prioritario"
+        ]
+      },
+      "business": {
+        "name": "Business",
+        "price": "US$199-399/mes",
+        "description": "Para marcas y equipos de alto tráfico.",
+        "features": [
+          "Sitios ilimitados",
+          "Analítica avanzada",
+          "Estilo personalizado",
+          "Aprobaciones en equipo",
+          "Onboarding dedicado"
+        ]
+      }
+    },
+    "cta": "Unirme a la lista"
+  },
+  "modal": {
+    "title": "Lista de espera",
+    "subtitle": "Recibe novedades de FAQ.com.br.",
+    "submit": "Unirme a la lista",
+    "processing": "Enviando...",
+    "success": "Gracias. Estás en la lista.",
+    "error": "Ingresa un email válido.",
+    "close": "Cerrar"
+  },
+  "form": {
+    "labels": {
+      "email": "Email",
+      "name": "Nombre",
+      "budget": "Presupuesto"
+    },
+    "placeholders": {
+      "email": "tu@empresa.com",
+      "name": "Tu nombre",
+      "budget": "Elige un rango"
+    },
+    "options": {
+      "budget": {
+        "lt_50": "Menos de 15 €",
+        "50_150": "15-50 €",
+        "150_500": "50-165 €",
+        "500_2000": "165-665 €",
+        "2000_plus": "665 €+"
+      }
+    },
+    "helper": "La lista ayuda a priorizar integraciones y hacer viable el producto.",
+    "optional": "Opcional"
+  },
+  "influencers": {
+    "title": "Influencers y equipos sociales",
+    "subtitle": "Convierte DMs repetidos en un FAQ que",
+    "subtitleAccent": "escala en plataformas",
+    "bullets": [
+      "Un lugar para reunir preguntas de seguidores, crear respuestas claras y dejar de repetir DMs cada día.",
+      "Una página FAQ en el link de la bio para compartir en cualquier sitio y apuntar a una sola fuente.",
+      "Respuestas consistentes en Instagram, YouTube y TikTok para mantener tono, políticas y links alineados."
+    ],
+    "roadmap": "Automatización IG/YouTube/TikTok está en roadmap.",
+    "card": {
+      "title": "Flujo de FAQ social",
+      "items": [
+        "Centralizar preguntas repetidas",
+        "FAQ link-in-bio",
+        "Respuestas consistentes"
+      ]
+    }
+  },
+  "testimonials": {
+    "label": "Casos de uso",
+    "title": "Cómo equipos usan",
+    "titleAccent": "FAQ.com.br",
+    "sideCard": {
+      "label": "ESTADO DE LANZAMIENTO",
+      "headline": "Muy pronto",
+      "subline": "Sin reviews públicas. Early access abierto."
+    },
+    "slides": [
+      {
+        "title": "FAQ ecommerce que convierte",
+        "quote": "Ejemplo: responde envíos, devoluciones y tallas antes del checkout.",
+        "name": "Equipo ejemplo",
+        "role": "Ecommerce"
+      },
+      {
+        "title": "Respuestas para onboarding SaaS",
+        "quote": "Ejemplo: reduce fricción con pasos claros y límites.",
+        "name": "Equipo ejemplo",
+        "role": "SaaS"
+      },
+      {
+        "title": "FAQ para link en bio",
+        "quote": "Ejemplo: centraliza DMs y mantén respuestas iguales.",
+        "name": "Creator ejemplo",
+        "role": "Social"
+      }
+    ],
+    "funfacts": [
+      {
+        "value": "ROI",
+        "description": "Menos tickets por respuesta"
+      },
+      {
+        "value": "SEO",
+        "description": "Más visibilidad long tail"
+      },
+      {
+        "value": "Loop",
+        "description": "Respuestas mejoran semanalmente"
+      }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Preguntas frecuentes",
+    "metaIndexPrefix": "P",
+    "metaLabel": "FAQ",
+    "metaReadTime": "Lectura rápida",
+    "cta": "Ver respuesta completa",
+    "items": [
+      {
+        "q": "Qué tan precisas son las respuestas de IA?",
+        "a": "La IA redacta y filtra lo relevante para tu negocio, y puedes autoaprobar o revisar en el panel admin. Ajusta el tono, agrega enlaces o solicita otra versión antes de publicar.",
+        "aFull": "La IA redacta y filtra lo relevante para tu negocio, y puedes autoaprobar o revisar en el panel admin. Ajusta el tono, agrega enlaces o solicita otra versión antes de publicar, manteniendo el estilo de tu marca.\n\nEl panel admin guarda un historial de revisiones para comparar versiones y mantener la aprobación ligera. Tú decides qué se publica y cuándo, y el FAQ mejora con cada nueva pregunta."
+      },
+      {
+        "q": "Controlamos el flujo de aprobación?",
+        "a": "Sí. La IA filtra lo que importa y tú eliges autoaprobar o revisión en el panel admin. Define reglas por categoría o página para mantener la calidad.",
+        "aFull": "Sí. La IA filtra lo que importa y tú eliges autoaprobar o revisión en el panel admin. Define reglas por categoría o página para que el equipo correcto vea los borradores.\n\nPuedes agregar revisores, exigir aprobación o permitir auto-publicación en temas simples. El panel muestra el estado de cada respuesta para que nada salga sin control."
+      },
+      {
+        "q": "Cuánto tarda la configuración?",
+        "a": "La mayoría de equipos conecta y publica en una sesión corta, a menudo el mismo día. Importa páginas o CMS, revisa borradores y publica vía widget o /faq.",
+        "aFull": "La mayoría de equipos conecta y publica en una sesión corta, a menudo el mismo día. Importa páginas o CMS, revisa borradores y publica vía widget o /faq.\n\nSi quieres empezar pequeño, publica solo las preguntas de mayor impacto y crece con el tiempo. La estructura y el SEO se mantienen consistentes a medida que el FAQ crece."
+      },
+      {
+        "q": "Esto ayuda al SEO?",
+        "a": "FAQs estructurados ayudan a posicionar preguntas long tail y mejoran la elegibilidad de snippets. Respuestas claras también refuerzan relevancia y enlaces internos.",
+        "aFull": "FAQs estructurados ayudan a posicionar preguntas long tail y mejoran la elegibilidad de snippets. Respuestas claras también refuerzan relevancia y enlaces internos.\n\nCuando aparecen nuevas preguntas, puedes actualizar el contenido para mantenerlo fresco ante buscadores. La estructura lista para schema facilita el entendimiento de los crawlers."
+      },
+      {
+        "q": "Qué CMS son compatibles?",
+        "a": "WordPress, Shopify, Webflow, WooCommerce y sitios custom vía script o widget. Si tienes stack propio, puedes incrustar el FAQ donde quieras y gestionarlo centralmente.",
+        "aFull": "WordPress, Shopify, Webflow, WooCommerce y sitios custom vía script o widget. Si tienes stack propio, puedes incrustar el FAQ donde quieras y gestionarlo centralmente.\n\nPuedes iniciar con un embed simple y luego pasar a una página /faq sin perder datos. El acceso por API está planificado y las integraciones seguirán creciendo."
+      },
+      {
+        "q": "Hay caso para influencers y redes?",
+        "a": "Sí. Crea un FAQ público y comparte en la bio para respuestas consistentes. Automatización para IG/YouTube/TikTok está en roadmap.",
+        "aFull": "Sí. Crea un FAQ público y comparte en la bio para respuestas consistentes. Automatización para IG/YouTube/TikTok está en roadmap.\n\nEsto reduce DMs repetidos, mantiene links y políticas consistentes, y crea una fuente única para colaboradores. Actualiza una vez y refleja cambios en todas las plataformas."
+      }
+    ]
+  },
+  "subscribe": {
+    "title": "Únete a la lista para",
+    "titleAccent": "novedades de lanzamiento",
+    "subtitle": "Lanzamos pronto. Tu registro ayuda a hacerlo posible.",
+    "placeholder": "Tu email",
+    "button": "Unirme a la lista",
+    "success": "Gracias, estás en la lista.",
+    "error": "Ingresa un email válido."
+  },
+  "finalCta": {
+    "title": "Listo para reducir tickets y subir",
+    "titleAccent": "conversión?",
+    "subtitle": "Únete a la lista para recibir novedades.",
+    "cta": "Unirme a la lista",
+    "note": "Sin spam. Cancela cuando quieras."
+  },
+  "thankYou": {
+    "title": "Estás en la lista",
+    "subtitle": "Gracias por registrarte. Te avisaremos al lanzar.",
+    "nextTitle": "Qué sigue",
+    "nextSteps": "Estamos creando la herramienta que ahorra tiempo, aumenta ventas y visitas en tu sitio, tienda o redes.",
+    "backCta": "Volver al inicio",
+    "surveyTitle": "Encuesta rápida opcional",
+    "surveySubtitle": "Tus respuestas ayudan a priorizar integraciones.",
+    "questions": {
+      "pain": "Mayor dolor hoy",
+      "platform": "CMS/plataforma",
+      "mustHave": "Qué lo haría imprescindible"
+    },
+    "submit": "Enviar feedback",
+    "skip": "Saltar por ahora",
+    "thanks": "Gracias por compartir."
+  },
+  "footer": {
+    "tagline": "FAQ.com.br convierte preguntas en ROI.",
+    "rights": "Todos los derechos reservados."
+  },
+  "language": {
+    "label": "Idioma"
+  },
+  "errors": {
+    "generic": "Algo salió mal. Intenta otra vez."
+  }
+}
