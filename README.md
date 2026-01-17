@@ -6,6 +6,8 @@ Production-ready multi-language landing page for FAQ.com.br built with Next.js (
 
 - `DATABASE_URL` - Postgres connection string.
 - `NEXT_PUBLIC_APP_URL` - Public base URL for canonical and hreflang (e.g. `https://faq.com.br`).
+- `NEXT_PUBLIC_BASE_PATH` - Optional base path for static hosting (e.g. `/faqlandingpage`).
+- `NEXT_PUBLIC_STATIC_EXPORT` - Set to `true` for static export builds (GitHub Pages).
 - `RATE_LIMIT_SECRET` - Secret used to hash rate-limit keys.
 
 See `.env.example` for a template.
@@ -56,3 +58,18 @@ Root `/` redirects to the default locale (`/en`). If you see a 404 at `/`, hit a
 - Deployable on Vercel. Set env vars in the project settings.
 - If using Prisma in serverless, consider connection pooling.
 - Rate limiting uses in-memory storage and resets on cold starts; use a shared store in production if needed.
+
+## GitHub Pages
+
+This project supports static export for GitHub Pages. Note that API routes, middleware, and database features are not available on GitHub Pages.
+
+1) Push to `main` (or update `.github/workflows/gh-pages.yml` to match your default branch).
+2) In GitHub repo settings, set Pages source to **GitHub Actions**.
+3) The workflow builds and deploys from `out/`.
+
+The workflow sets:
+- `NEXT_PUBLIC_STATIC_EXPORT` to `true`.
+- `NEXT_PUBLIC_BASE_PATH` to `/<repo-name>`.
+- `NEXT_PUBLIC_APP_URL` to `https://<owner>.github.io/<repo-name>`.
+
+If you use a custom domain at the root, set `NEXT_PUBLIC_BASE_PATH` to an empty string and update `NEXT_PUBLIC_APP_URL` accordingly.

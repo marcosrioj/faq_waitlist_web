@@ -22,14 +22,15 @@ import Footer from "@/components/Fintech/Footer";
 export async function generateMetadata(): Promise<Metadata> {
   const dictionary = await getDictionary(defaultLocale);
   const baseUrl = new URL(getBaseUrl());
-  const base = baseUrl.origin;
+  const basePath = baseUrl.pathname.replace(/\/$/, "");
+  const base = `${baseUrl.origin}${basePath}`;
 
   return {
     metadataBase: baseUrl,
     title: dictionary.meta.title,
     description: dictionary.meta.description,
     alternates: {
-      canonical: "/",
+      canonical: base,
       languages: Object.fromEntries(
         locales.map((loc) => [
           loc,
