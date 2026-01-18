@@ -729,7 +729,7 @@ Main Banner CSS
   position: relative;
   height: 910px;
   z-index: 1;
-  background: transparent url("/images/banner-bg1.jpg") right top no-repeat;
+  background: transparent var(--bg-banner-bg1) right top no-repeat;
 }
 .main-banner .hero-content h1 {
   font-size: 45px;
@@ -1226,7 +1226,7 @@ About CSS
 Why Choose US CSS
 =================================================*/
 .why-choose-us {
-  background: transparent url("/images/banner-bg1.jpg") right top no-repeat;
+  background: transparent var(--bg-banner-bg1) right top no-repeat;
   position: relative;
   z-index: 1;
 }
@@ -2233,7 +2233,7 @@ Fun Facts CSS
 .funfacts-area.bg-image {
   position: relative;
   z-index: 1;
-  background-image: url("/images/bigdata-analytics/funfacts-bg.jpg");
+  background-image: var(--bg-funfacts);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2806,7 +2806,7 @@ Feedback CSS
   height: 260px;
   content: "";
   z-index: -1;
-  background-image: url("/images/layer.png");
+  background-image: var(--bg-layer);
 }
 .testimonials-slides-box::after {
   position: absolute;
@@ -2816,7 +2816,7 @@ Feedback CSS
   height: 260px;
   content: "";
   z-index: -1;
-  background-image: url("/images/layer.png");
+  background-image: var(--bg-layer);
 }
 
 .testimonials-slides {
@@ -4620,7 +4620,7 @@ Page Title CSS
 .page-title-area {
   position: relative;
   z-index: 1;
-  background: transparent url("/images/banner-bg1.jpg") right top no-repeat;
+  background: transparent var(--bg-banner-bg1) right top no-repeat;
   padding-top: 190px;
   padding-bottom: 100px;
   text-align: center;
@@ -5925,7 +5925,7 @@ Coming Soon CSS
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  background: url("/images/oops-bg.jpg") no-repeat;
+  background: var(--bg-oops) no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: cover;
@@ -6881,7 +6881,7 @@ ML Main Banner CSS
   z-index: 1;
   padding-top: 130px;
   padding-bottom: 140px;
-  background-image: url("/images/banner-bg.jpg");
+  background-image: var(--bg-banner);
   background-position: bottom right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6914,7 +6914,7 @@ ML Main Banner CSS
   z-index: 1;
   padding-top: 260px;
   padding-bottom: 240px;
-  background-image: url("/images/banner-bg.jpg");
+  background-image: var(--bg-banner);
   background-position: bottom right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7983,7 +7983,7 @@ Agency CTA CSS
 .agency-cta-area {
   position: relative;
   z-index: 1;
-  background-image: url("/images/agency-image/agency-gradient-bg.jpg");
+  background-image: var(--bg-agency);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8240,7 +8240,7 @@ Creative Area CSS
 =================================================*/
 .creative-area {
   height: 650px;
-  background-image: url("/images/creative-bg.jpg");
+  background-image: var(--bg-creative);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;

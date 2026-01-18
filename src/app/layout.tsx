@@ -6,7 +6,7 @@ import "@/styles/style.css";
 import "@/styles/responsive.css";
 import "@/styles/rtl.css";
 
-import type { ReactNode } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import { Poppins } from "next/font/google";
 import { defaultLocale, isLocale, isRtl } from "@/i18n/config";
 import GoTop from "@/components/Layout/GoTop";
@@ -25,9 +25,29 @@ export default function RootLayout({
   params?: { locale?: string };
 }) {
   const locale = isLocale(params?.locale) ? params?.locale : defaultLocale;
+  const rawBasePath = (process.env.NEXT_PUBLIC_BASE_PATH ?? "")
+    .trim()
+    .replace(/^['"]|['"]$/g, "");
+  const normalizedBasePath =
+    rawBasePath === "/" ? "" : rawBasePath.replace(/\/$/, "");
+  const basePath =
+    normalizedBasePath && !normalizedBasePath.startsWith("/")
+      ? `/${normalizedBasePath}`
+      : normalizedBasePath;
+  const imageBase = `${basePath}/images`;
+  const cssVars: CSSProperties = {
+    "--base-path": basePath,
+    "--bg-banner-bg1": `url(${imageBase}/banner-bg1.jpg)`,
+    "--bg-funfacts": `url(${imageBase}/bigdata-analytics/funfacts-bg.jpg)`,
+    "--bg-layer": `url(${imageBase}/layer.png)`,
+    "--bg-oops": `url(${imageBase}/oops-bg.jpg)`,
+    "--bg-banner": `url(${imageBase}/banner-bg.jpg)`,
+    "--bg-agency": `url(${imageBase}/agency-image/agency-gradient-bg.jpg)`,
+    "--bg-creative": `url(${imageBase}/creative-bg.jpg)`
+  };
 
   return (
-    <html lang={locale} dir={isRtl(locale) ? "rtl" : "ltr"}>
+    <html lang={locale} dir={isRtl(locale) ? "rtl" : "ltr"} style={cssVars}>
       <body className={poppins.className}>
         {children}
         <GoTop />
