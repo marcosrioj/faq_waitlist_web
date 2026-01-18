@@ -1,5 +1,4 @@
 import Image from "next/image";
-import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 import OpenModalButton from "@/components/OpenModalButton";
 
@@ -9,11 +8,10 @@ import benefits2 from "/public/images/fintech/benefits2.png";
 import benefits3 from "/public/images/fintech/benefits3.png";
 
 type BenefitsProps = {
-  locale: Locale;
   dictionary: Dictionary;
 };
 
-const Benefits = ({ locale, dictionary }: BenefitsProps) => {
+const Benefits = ({ dictionary }: BenefitsProps) => {
   const { influencers, hero } = dictionary;
   const cardItems = [
     { image: benefits1, title: influencers.card.items[0], body: influencers.bullets[0] },
@@ -82,12 +80,7 @@ const Benefits = ({ locale, dictionary }: BenefitsProps) => {
         <p className="text-center text-muted mt-4">{influencers.roadmap}</p>
 
         <div className="text-center mt-md-3">
-          <OpenModalButton
-            locale={locale}
-            source="influencers-cta"
-            trackCta
-            className="fintech-default-btn"
-          >
+          <OpenModalButton className="fintech-default-btn">
             {hero.primaryCta}
           </OpenModalButton>
         </div>

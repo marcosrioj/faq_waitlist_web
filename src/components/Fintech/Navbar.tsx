@@ -99,12 +99,7 @@ export default function Navbar({ locale, dictionary }: NavbarProps) {
               <Suspense fallback={null}>
                 <LanguageSwitcher locale={locale} />
               </Suspense>
-              <OpenModalButton
-                locale={locale}
-                source="navbar-cta"
-                trackCta
-                className="fintech-default-btn"
-              >
+              <OpenModalButton className="fintech-default-btn">
                 {dictionary.hero.primaryCta}
               </OpenModalButton>
             </div>

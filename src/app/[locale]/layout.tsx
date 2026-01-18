@@ -4,7 +4,6 @@ import type { ReactNode } from "react";
 import { Suspense } from "react";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { defaultLocale, isLocale, locales, type Locale } from "@/i18n/config";
-import EventTracker from "@/components/EventTracker";
 import UtmCapture from "@/components/UtmCapture";
 import { getBaseUrl } from "@/lib/site";
 
@@ -69,7 +68,6 @@ export default function RootLayout({
       <Suspense fallback={null}>
         <UtmCapture />
       </Suspense>
-      <EventTracker locale={params.locale} />
       {children}
     </>
   );

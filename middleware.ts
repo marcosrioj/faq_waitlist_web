@@ -6,8 +6,7 @@ import {
 } from "./src/i18n/config";
 import {
   COOKIE_MAX_AGE_YEAR,
-  LOCALE_COOKIE,
-  SESSION_COOKIE
+  LOCALE_COOKIE
 } from "./src/lib/constants";
 
 export function middleware(request: NextRequest): NextResponse {
@@ -46,15 +45,6 @@ export function middleware(request: NextRequest): NextResponse {
     }
   } else if (localeFromPath && (!cookieLocale || cookieLocale !== localeFromPath)) {
     response.cookies.set(LOCALE_COOKIE, localeFromPath, {
-      path: "/",
-      sameSite: "lax",
-      maxAge: COOKIE_MAX_AGE_YEAR
-    });
-  }
-
-  const sessionCookie = request.cookies.get(SESSION_COOKIE)?.value;
-  if (!sessionCookie) {
-    response.cookies.set(SESSION_COOKIE, crypto.randomUUID(), {
       path: "/",
       sameSite: "lax",
       maxAge: COOKIE_MAX_AGE_YEAR

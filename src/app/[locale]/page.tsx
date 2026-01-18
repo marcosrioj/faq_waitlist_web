@@ -33,14 +33,14 @@ export default async function Page({ params }: { params: { locale: Locale } }) {
       <ModalProvider dictionary={dictionary} locale={params.locale}>
         <Navbar locale={params.locale} dictionary={dictionary} />
         <main id="main-content">
-          <MainBanner locale={params.locale} dictionary={dictionary} />
+          <MainBanner dictionary={dictionary} />
           <Partner dictionary={dictionary} />
           <Features locale={params.locale} dictionary={dictionary} />
           <About dictionary={dictionary} />
           <HowItWorks dictionary={dictionary} />
-          <Benefits locale={params.locale} dictionary={dictionary} />
+          <Benefits dictionary={dictionary} />
           <Integrations dictionary={dictionary} />
-          <Cto locale={params.locale} dictionary={dictionary} />
+          <Cto dictionary={dictionary} />
           <LatestNews dictionary={dictionary} />
           <SubscribeForm locale={params.locale} dictionary={dictionary} />
         </main>

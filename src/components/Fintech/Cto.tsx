@@ -1,16 +1,14 @@
 import Image from "next/image";
-import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 import OpenModalButton from "@/components/OpenModalButton";
 
 import app2 from "/public/images/fintech/app2.png";
 
 type CtoProps = {
-  locale: Locale;
   dictionary: Dictionary;
 };
 
-const Cto = ({ locale, dictionary }: CtoProps) => {
+const Cto = ({ dictionary }: CtoProps) => {
   const { finalCta } = dictionary;
 
   return (
@@ -25,12 +23,7 @@ const Cto = ({ locale, dictionary }: CtoProps) => {
                 </h2>
                 <p>{finalCta.subtitle}</p>
 
-                <OpenModalButton
-                  locale={locale}
-                  source="final-cta"
-                  trackCta
-                  className="fintech-green-btn"
-                >
+                <OpenModalButton className="fintech-green-btn">
                   {finalCta.cta}
                 </OpenModalButton>
               </div>

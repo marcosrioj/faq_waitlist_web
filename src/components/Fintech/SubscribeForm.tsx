@@ -5,6 +5,9 @@ import Image from "next/image";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 import useWaitlistAttention from "@/hooks/useWaitlistAttention";
+import { submitLeadToGoogleForms } from "@/lib/google-forms";
+import { getCookie } from "@/lib/client-cookies";
+import { UTM_FIELDS, type UtmValues } from "@/lib/utm";
 
 import man3 from "/public/images/saas/man3.png";
 
@@ -29,13 +32,21 @@ const SubscribeForm = ({ locale, dictionary }: SubscribeFormProps) => {
     }
 
     try {
-      const response = await fetch("/api/leads", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, locale })
+      const utmValues: UtmValues = {};
+      for (const field of UTM_FIELDS) {
+        const value = getCookie(field);
+        if (value) {
+          utmValues[field] = value;
+        }
+      }
+
+      const submitted = await submitLeadToGoogleForms({
+        email,
+        locale,
+        utm: utmValues
       });
 
-      if (!response.ok) {
+      if (!submitted) {
         throw new Error("Lead submission failed");
       }
 

@@ -6,7 +6,6 @@ import Link from "next/link";
 import ModalProvider from "@/components/ModalProvider";
 import Navbar from "@/components/Fintech/Navbar";
 import Footer from "@/components/Fintech/Footer";
-import ThankYouTracker from "@/components/ThankYouTracker";
 
 export default async function ThankYouPage({ params }: { params: { locale: Locale } }) {
   if (!isLocale(params.locale)) {
@@ -20,7 +19,6 @@ export default async function ThankYouPage({ params }: { params: { locale: Local
 
   return (
     <ModalProvider dictionary={dictionary} locale={params.locale}>
-      <ThankYouTracker locale={params.locale} />
       <Navbar locale={params.locale} dictionary={dictionary} />
       <main className="section-pad">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">

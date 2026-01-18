@@ -72,12 +72,7 @@ const Footer = ({ locale, dictionary }: FooterProps) => {
             <div className="single-footer-widget">
               <h3>{dictionary.modal.title}</h3>
               <p>{dictionary.form.helper}</p>
-              <OpenModalButton
-                locale={locale}
-                source="footer-cta"
-                trackCta
-                className="fintech-green-btn"
-              >
+              <OpenModalButton className="fintech-green-btn">
                 {dictionary.hero.primaryCta}
               </OpenModalButton>
             </div>

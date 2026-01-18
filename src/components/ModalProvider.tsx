@@ -3,11 +3,10 @@
 import { createContext, useCallback, useContext, useMemo, useState } from "react";
 import type { ReactNode } from "react";
 import type { Dictionary } from "@/i18n/types";
-import { trackEvent } from "@/lib/track";
 import LeadModal from "@/components/LeadModal";
 
 type ModalContextValue = {
-  openModal: (source?: string) => void;
+  openModal: () => void;
 };
 
 const ModalContext = createContext<ModalContextValue | null>(null);
@@ -29,13 +28,9 @@ type ModalProviderProps = {
 export default function ModalProvider({ children, dictionary, locale }: ModalProviderProps) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const openModal = useCallback(
-    (source?: string) => {
-      setIsOpen(true);
-      trackEvent("modal_open", locale, { source });
-    },
-    [locale]
-  );
+  const openModal = useCallback(() => {
+    setIsOpen(true);
+  }, []);
 
   const closeModal = useCallback(() => {
     setIsOpen(false);

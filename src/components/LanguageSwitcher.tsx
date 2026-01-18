@@ -5,7 +5,6 @@ import type { Locale } from "@/i18n/config";
 import { defaultLocale, isLocale, localeLabels, locales } from "@/i18n/config";
 import { COOKIE_MAX_AGE_YEAR, LOCALE_COOKIE } from "@/lib/constants";
 import { setCookie } from "@/lib/client-cookies";
-import { trackEvent } from "@/lib/track";
 
 type LanguageSwitcherProps = {
   locale: Locale;
@@ -47,7 +46,6 @@ export default function LanguageSwitcher({ locale }: LanguageSwitcherProps) {
     const url = query ? `${normalizedPath}?${query}` : normalizedPath;
 
     setCookie(LOCALE_COOKIE, nextLocale, { maxAge: COOKIE_MAX_AGE_YEAR });
-    trackEvent("language_changed", locale, { from: locale, to: nextLocale });
     router.push(url);
   };
 

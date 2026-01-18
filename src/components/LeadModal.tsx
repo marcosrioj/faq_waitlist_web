@@ -5,9 +5,10 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { defaultLocale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
-import { budgetRangeOptions } from "@/lib/options";
+import { budgetRangeOptions, type BudgetRangeOption } from "@/lib/options";
 import { getCookie } from "@/lib/client-cookies";
-import { UTM_FIELDS } from "@/lib/utm";
+import { submitLeadToGoogleForms } from "@/lib/google-forms";
+import { UTM_FIELDS, type UtmValues } from "@/lib/utm";
 import useWaitlistAttention from "@/hooks/useWaitlistAttention";
 
 import featuredImg from "/public/images/fintech/featured-img.png";
@@ -21,7 +22,7 @@ type LeadModalProps = {
 type LeadFormState = {
   email: string;
   name: string;
-  budgetRange: string;
+  budgetRange: BudgetRangeOption | "";
   company: string;
 };
 
@@ -90,7 +91,14 @@ export default function LeadModal({
 
     setIsSubmitting(true);
     try {
-      const utmValues: Record<string, string> = {};
+      if (formData.company) {
+        const thankYouPath =
+          locale === defaultLocale ? "/thank-you" : `/${locale}/thank-you`;
+        router.push(thankYouPath);
+        return;
+      }
+
+      const utmValues: UtmValues = {};
       for (const field of UTM_FIELDS) {
         const value = getCookie(field);
         if (value) {
@@ -98,20 +106,19 @@ export default function LeadModal({
         }
       }
 
-      const response = await fetch("/api/leads", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          ...formData,
-          locale,
-          ...utmValues
-        })
+      const budgetLabel = formData.budgetRange
+        ? options.budget[formData.budgetRange]
+        : undefined;
+      const submitted = await submitLeadToGoogleForms({
+        email: formData.email,
+        name: formData.name || undefined,
+        budget: budgetLabel,
+        locale,
+        utm: utmValues
       });
 
-      if (!response.ok) {
-        throw new Error("Request failed");
+      if (!submitted) {
+        throw new Error("Submission failed");
       }
 
       const thankYouPath = locale === defaultLocale ? "/thank-you" : `/${locale}/thank-you`;

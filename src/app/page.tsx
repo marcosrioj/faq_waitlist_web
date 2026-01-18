@@ -5,7 +5,6 @@ import { getDictionary } from "@/i18n/get-dictionary";
 import { getStructuredData } from "@/lib/structured-data";
 import { getBaseUrl } from "@/lib/site";
 import UtmCapture from "@/components/UtmCapture";
-import EventTracker from "@/components/EventTracker";
 import ModalProvider from "@/components/ModalProvider";
 import Navbar from "@/components/Fintech/Navbar";
 import MainBanner from "@/components/Fintech/MainBanner";
@@ -62,19 +61,18 @@ export default async function RootPage() {
       <Suspense fallback={null}>
         <UtmCapture />
       </Suspense>
-      <EventTracker locale={defaultLocale} />
       <Suspense fallback={null}>
         <ModalProvider dictionary={dictionary} locale={defaultLocale}>
           <Navbar locale={defaultLocale} dictionary={dictionary} />
           <main id="main-content">
-            <MainBanner locale={defaultLocale} dictionary={dictionary} />
+            <MainBanner dictionary={dictionary} />
             <Partner dictionary={dictionary} />
             <Features locale={defaultLocale} dictionary={dictionary} />
             <About dictionary={dictionary} />
             <HowItWorks dictionary={dictionary} />
-            <Benefits locale={defaultLocale} dictionary={dictionary} />
+            <Benefits dictionary={dictionary} />
             <Integrations dictionary={dictionary} />
-            <Cto locale={defaultLocale} dictionary={dictionary} />
+            <Cto dictionary={dictionary} />
             <LatestNews dictionary={dictionary} />
             <SubscribeForm locale={defaultLocale} dictionary={dictionary} />
           </main>

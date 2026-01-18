@@ -1,18 +1,15 @@
 import Image from "next/image";
-import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/types";
 import OpenModalButton from "@/components/OpenModalButton";
-import TrackableLink from "@/components/TrackableLink";
 
 import bannerBg from "/public/images/fintech/banner-bg.jpg";
 import app from "/public/images/fintech/app.png";
 
 type MainBannerProps = {
-  locale: Locale;
   dictionary: Dictionary;
 };
 
-const MainBanner = ({ locale, dictionary }: MainBannerProps) => {
+const MainBanner = ({ dictionary }: MainBannerProps) => {
   const { hero } = dictionary;
 
   return (
@@ -31,23 +28,12 @@ const MainBanner = ({ locale, dictionary }: MainBannerProps) => {
               <p className="short-des">{hero.subtitle}</p>
 
               <div className="btn-box d-flex align-items-center gap-3">
-                <OpenModalButton
-                  locale={locale}
-                  source="hero-primary"
-                  trackCta
-                  className="fintech-default-btn"
-                >
+                <OpenModalButton className="fintech-default-btn">
                   {hero.primaryCta}
                 </OpenModalButton>
-                <TrackableLink
-                  href="#roi"
-                  locale={locale}
-                  event="cta_click"
-                  metadata={{ location: "hero-secondary" }}
-                  className="fintech-outline-btn text-white"
-                >
+                <a href="#roi" className="fintech-outline-btn text-white">
                   {hero.secondaryCta}
-                </TrackableLink>
+                </a>
               </div>
 
               <div className="status-list">
