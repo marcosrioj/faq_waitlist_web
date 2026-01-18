@@ -45,7 +45,7 @@ Open the localized route directly if needed:
 - `http://localhost:3000/pt-br`
 - `http://localhost:3000/es`
 
-Root `/` redirects to the default locale (`/en`). If you see a 404 at `/`, hit a locale path directly.
+Root `/` renders the default locale (`/pt-br`). If you see a 404 at `/`, hit a locale path directly.
 
 ## API Routes
 
@@ -66,6 +66,15 @@ This project supports static export for GitHub Pages. Note that API routes, midd
 1) Push to `main` (or update `.github/workflows/gh-pages.yml` to match your default branch).
 2) In GitHub repo settings, set Pages source to **GitHub Actions**.
 3) The workflow builds and deploys from `out/`.
+
+Local static export test:
+
+```bash
+NEXT_PUBLIC_STATIC_EXPORT=true \
+NEXT_PUBLIC_BASE_PATH=/faq_waitlist_web \
+NEXT_PUBLIC_APP_URL=https://<owner>.github.io/faqlandingpage \
+npm run build
+```
 
 The workflow sets:
 - `NEXT_PUBLIC_STATIC_EXPORT` to `true`.
