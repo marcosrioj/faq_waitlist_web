@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { defaultLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import Link from "next/link";
@@ -13,7 +14,9 @@ export default async function ThankYouPage() {
 
   return (
     <>
-      <UtmCapture />
+      <Suspense fallback={null}>
+        <UtmCapture />
+      </Suspense>
       <EventTracker locale={defaultLocale} />
       <ModalProvider dictionary={dictionary} locale={defaultLocale}>
         <ThankYouTracker locale={defaultLocale} />

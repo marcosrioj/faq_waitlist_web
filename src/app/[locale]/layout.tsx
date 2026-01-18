@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
+import { Suspense } from "react";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { defaultLocale, isLocale, locales, type Locale } from "@/i18n/config";
 import EventTracker from "@/components/EventTracker";
@@ -65,7 +66,9 @@ export default function RootLayout({
 
   return (
     <>
-      <UtmCapture />
+      <Suspense fallback={null}>
+        <UtmCapture />
+      </Suspense>
       <EventTracker locale={params.locale} />
       {children}
     </>

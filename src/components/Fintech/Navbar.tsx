@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { defaultLocale, type Locale } from "@/i18n/config";
@@ -96,7 +96,9 @@ export default function Navbar({ locale, dictionary }: NavbarProps) {
                   </li>
                 ))}
               </ul>
-              <LanguageSwitcher locale={locale} />
+              <Suspense fallback={null}>
+                <LanguageSwitcher locale={locale} />
+              </Suspense>
               <OpenModalButton
                 locale={locale}
                 source="navbar-cta"

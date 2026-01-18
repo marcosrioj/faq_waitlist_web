@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { defaultLocale, locales } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { getStructuredData } from "@/lib/structured-data";
@@ -58,24 +59,28 @@ export default async function RootPage() {
 
   return (
     <>
-      <UtmCapture />
+      <Suspense fallback={null}>
+        <UtmCapture />
+      </Suspense>
       <EventTracker locale={defaultLocale} />
-      <ModalProvider dictionary={dictionary} locale={defaultLocale}>
-        <Navbar locale={defaultLocale} dictionary={dictionary} />
-        <main id="main-content">
-          <MainBanner locale={defaultLocale} dictionary={dictionary} />
-          <Partner dictionary={dictionary} />
-          <Features locale={defaultLocale} dictionary={dictionary} />
-          <About dictionary={dictionary} />
-          <HowItWorks dictionary={dictionary} />
-          <Benefits locale={defaultLocale} dictionary={dictionary} />
-          <Integrations dictionary={dictionary} />
-          <Cto locale={defaultLocale} dictionary={dictionary} />
-          <LatestNews dictionary={dictionary} />
-          <SubscribeForm locale={defaultLocale} dictionary={dictionary} />
-        </main>
-        <Footer locale={defaultLocale} dictionary={dictionary} />
-      </ModalProvider>
+      <Suspense fallback={null}>
+        <ModalProvider dictionary={dictionary} locale={defaultLocale}>
+          <Navbar locale={defaultLocale} dictionary={dictionary} />
+          <main id="main-content">
+            <MainBanner locale={defaultLocale} dictionary={dictionary} />
+            <Partner dictionary={dictionary} />
+            <Features locale={defaultLocale} dictionary={dictionary} />
+            <About dictionary={dictionary} />
+            <HowItWorks dictionary={dictionary} />
+            <Benefits locale={defaultLocale} dictionary={dictionary} />
+            <Integrations dictionary={dictionary} />
+            <Cto locale={defaultLocale} dictionary={dictionary} />
+            <LatestNews dictionary={dictionary} />
+            <SubscribeForm locale={defaultLocale} dictionary={dictionary} />
+          </main>
+          <Footer locale={defaultLocale} dictionary={dictionary} />
+        </ModalProvider>
+      </Suspense>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
