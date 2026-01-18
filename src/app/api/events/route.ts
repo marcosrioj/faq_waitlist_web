@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { cookies } from "next/headers";
+import { Prisma } from "@prisma/client";
 import { prisma } from "@/lib/prisma";
 import { getClientIp, rateLimit } from "@/lib/rate-limit";
 import { isEventType } from "@/lib/event-types";
@@ -26,10 +27,14 @@ export async function POST(request: NextRequest) {
   }
 
   const locale = isLocale(body.locale as string) ? (body.locale as string) : "en";
-  const metadata =
-    typeof body.metadata === "object" && body.metadata !== null
-      ? (body.metadata as Record<string, unknown>)
-      : undefined;
+  let metadata: Prisma.InputJsonValue | undefined;
+  if (body.metadata !== undefined) {
+    try {
+      metadata = JSON.parse(JSON.stringify(body.metadata)) as Prisma.InputJsonValue;
+    } catch {
+      metadata = undefined;
+    }
+  }
 
   const cookieStore = cookies();
   const sessionId = cookieStore.get(SESSION_COOKIE)?.value ?? crypto.randomUUID();
