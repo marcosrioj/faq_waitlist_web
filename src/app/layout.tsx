@@ -35,7 +35,7 @@ export default function RootLayout({
       ? `/${normalizedBasePath}`
       : normalizedBasePath;
   const imageBase = `${basePath}/images`;
-  const cssVars: CSSProperties = {
+  const cssVars = {
     "--base-path": basePath,
     "--bg-banner-bg1": `url(${imageBase}/banner-bg1.jpg)`,
     "--bg-funfacts": `url(${imageBase}/bigdata-analytics/funfacts-bg.jpg)`,
@@ -44,10 +44,14 @@ export default function RootLayout({
     "--bg-banner": `url(${imageBase}/banner-bg.jpg)`,
     "--bg-agency": `url(${imageBase}/agency-image/agency-gradient-bg.jpg)`,
     "--bg-creative": `url(${imageBase}/creative-bg.jpg)`
-  };
+  } satisfies Record<`--${string}`, string>;
 
   return (
-    <html lang={locale} dir={isRtl(locale) ? "rtl" : "ltr"} style={cssVars}>
+    <html
+      lang={locale}
+      dir={isRtl(locale) ? "rtl" : "ltr"}
+      style={cssVars as CSSProperties}
+    >
       <body className={poppins.className}>
         {children}
         <GoTop />
